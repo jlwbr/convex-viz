@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>Schema Diagram</title>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script>
+  <script src="/ws-client.js"></script>
+  <style>
+    html, body {
+      width: 100vw;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      overflow: hidden;
+    }
+    #diagram-container, #diagram, .mermaid {
+      width: 100vw;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: #fff;
+    }
+    svg {
+      width: 100vw !important;
+      height: 100vh !important;
+      min-width: 100vw !important;
+      min-height: 100vh !important;
+      max-width: 100vw !important;
+      max-height: 100vh !important;
+      display: block;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div id="diagram-container">
+    <div id="diagram">Loading...</div>
+  </div>
+  <script>
+    // Remove old renderMermaid logic, as /ws-client.js will handle live updates
+  </script>
+</body>
+</html> 

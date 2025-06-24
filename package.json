@@ -1,0 +1,32 @@
+{
+  "name": "convex-viz",
+  "version": "0.0.1",
+  "description": "Visualize your Convex schema as a Mermaid ER diagram",
+  "author": "Joel Weber <joel@joelweber.nl>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "convex-viz": "dist/index.js"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/ws": "^8.18.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "chokidar": "^4.0.3",
+    "convex": "^1.24.8",
+    "open": "^10.1.2",
+    "ws": "^8.18.2"
+  },
+  "scripts": {
+    "build": "tsc && cp -R public dist/public"
+  },
+  "files": [
+    "dist/",
+    "public/"
+  ]
+}
