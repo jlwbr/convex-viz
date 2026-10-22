@@ -1,6 +1,6 @@
 {
   "name": "convex-viz",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Visualize your Convex schema as a Mermaid ER diagram",
   "author": "Joel Weber <joel@joelweber.nl>",
   "repository": "https://github.com/jlwbr/convex-viz",
